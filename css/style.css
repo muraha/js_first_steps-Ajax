@@ -1,0 +1,33 @@
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+img {
+    margin: 0 5px 0 0;
+    height: 100px;
+    flex: 0 0 100px;
+}
+
+.small {
+    color: #999;
+    font-size: 0.9rem;
+    display: inline-block;
+    width: 200px;
+}
+
+.small::after {
+    display: block;
+}
+
+article {
+    margin: 0 0 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
